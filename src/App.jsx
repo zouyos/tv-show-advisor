@@ -4,7 +4,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { TVShowAPI } from "./api/tv-show";
 import { BACKDROP_BASE_URL } from "./config";
-import TVShowDetail from "./components/TVShowDetail";
+import TVShowDetail from "./components/TVShowDetail/TVShowDetail";
 
 function App() {
   const [currentTVShow, setCurrentTVShow] = useState();
