@@ -3,7 +3,13 @@
   font-size: 35px;
 }
 
+.rating_container {
+  display: flex;
+  align-items: center;
+}
+
 .rating {
+  margin: 5px 0 0 5px;
 }
 
 .overview {
