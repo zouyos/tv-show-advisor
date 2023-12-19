@@ -1,4 +1,3 @@
-import style from "./style.module.css";
 import { Star, StarHalf, StarFill } from "react-bootstrap-icons";
 
 export default function FiveStarRating({ rating }) {
@@ -18,10 +17,12 @@ export default function FiveStarRating({ rating }) {
   for (let i = 1; i <= starFillCount; i++) {
     starList.push(<StarFill key={"star-fill" + i} />);
   }
+
   // Pusher dans le tableau les démi étoiles (s'il y'en a)
   if (hasStarHalf) {
     starList.push(<StarHalf key={"star-half"} />);
   }
+
   // Pusher dans le tableau les étoiles vide
   for (let i = 1; i <= emptyStarCount; i++) {
     starList.push(<Star key={"empty-star" + i} />);
