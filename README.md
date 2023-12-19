@@ -1,6 +1,6 @@
-#React TV Show Advisor
+# React TV Show Advisor
 
-##Getting started
+## Getting started
 
 Create .env file at root with your TMDB API key:
 
