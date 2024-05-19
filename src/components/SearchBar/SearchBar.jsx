@@ -13,7 +13,7 @@ export default function SearchBar({ onSubmit }) {
       <SearchIcon size={27} className={style.icon} />
       <input
         type="search"
-        placeholder="Search a TV show you may like"
+        placeholder="Search a TV show"
         className={style.input}
         onKeyUp={submit}
       />
