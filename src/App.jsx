@@ -70,7 +70,11 @@ function App() {
         <div className="row">
           <div className="col-4">
             <div>
-              <Logo image={logo} title="Watowatch" subtitle="Find a TV show" />
+              <Logo
+                image={logo}
+                title="Watowatch"
+                subtitle="Find a TV show you may like"
+              />
             </div>
           </div>
           <div className="col-sm-12 col-lg-4">
